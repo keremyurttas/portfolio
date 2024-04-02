@@ -1,7 +1,14 @@
 <template>
-  <div class="bg-red-500 h-20 w-20">asd</div>
+  <section class="relative">
+    <NavHeader></NavHeader>
+  </section>
+  <main>
+    <router-view></router-view>
+  </main>
 </template>
 
-<script setup></script>
+<script setup>
+import NavHeader from "./components/NavHeader.vue";
+</script>
 
 <style></style>
