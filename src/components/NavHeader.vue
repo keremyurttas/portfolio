@@ -1,8 +1,8 @@
 <template>
   <nav
-    class="text-secondary w-max fixed bottom-20 xl:top-20 h-max left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-90"
+    class="text-secondary w-max fixed bottom-20 z-10 xl:top-20 h-max left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-90"
   >
-    <ul class="flex gap-8 items-center p-8 z-10 bg-fourthiary rounded-full">
+    <ul class="flex gap-8 items-center px-8 py-6 bg-fourthiary rounded-full">
       <li
         v-for="navItem in navItems"
         :key="navItem"
@@ -20,7 +20,7 @@
         <a target="_blank" href="https://github.com/keremyurttas">
           <img
             class="cursor-pointer"
-            src="../assets/mdi_github.svg"
+            src="../assets/icons/github.svg"
             alt="GitHub logo"
           />
         </a>
@@ -29,7 +29,7 @@
         <a target="_blank" href="https://www.linkedin.com/in/keremyurttas/"
           ><img
             class="cursor-pointer"
-            src="../assets/mdi_linkedin.svg"
+            src="../assets/icons/linkedin.svg"
             alt="LinkedIn logo"
         /></a>
       </li>
