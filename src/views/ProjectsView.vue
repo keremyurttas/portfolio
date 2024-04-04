@@ -34,7 +34,7 @@
         </div>
         <div class="xl:space-y-16 space-y-10 xl:mt-12 mt-6">
           <div class="space-y-4">
-            <div class="xl:flex gap-4 xl:space-y-0 space-y-2">
+            <div class="xl:flex gap-4 xl:space-y-0 space-y-2 flex-wrap">
               <h6
                 v-for="(usedTech, usedTechIndex) in project.usedTechnologies"
                 :key="usedTechIndex"
@@ -104,7 +104,10 @@ const projects = [
     ],
 
     details: [
-      "No need for more words, It is a classical Wordle game with dark theme option.",
+      "A classical Wordle game with an optional dark theme for enhanced visual comfort.",
+      "Enjoy a fresh challenge with a new word generated each time the page loads.",
+      "Verify the validity of each entry with our built-in English word checker.",
+      "Designed to be mobile and web-friendly, offering a beautifully crafted interface for seamless gameplay.",
     ],
     liveLink: "https://wordle-react-sage.vercel.app/",
     repoLink: "https://github.com/keremyurttas/wordleReact",
@@ -127,9 +130,9 @@ const projects = [
       },
     ],
     details: [
-      `Explore my Survey App, seamlessly integrated with Firebase.
-  Sign up to craft personalized surveys and effortlessly share them
-  with your friends, creating engaging and interactive experiences.`,
+      "Explore our Survey App seamlessly integrated with Firebase.",
+      "Craft your own surveys effortlessly and share them with friends, fostering engaging and interactive experiences.",
+      "Participants can answer surveys without the requirement of signing in, ensuring accessibility for all.",
     ],
     liveLink: "https://survey-app-plum.vercel.app/",
     repoLink: "https://github.com/keremyurttas/survey-app",
@@ -147,7 +150,13 @@ const projects = [
         imgSrc: "npm.svg",
       },
     ],
-    details: ["It is a toast notifications package for Vue.JS."],
+    details: [
+      "It is a toast notifications package for Vue.JS.",
+      "Six different position options for optimal display.",
+      "Three distinct states to suit various notification needs.",
+      "Dismissible option for user convenience.",
+      "Custom duration values in milliseconds for tailored notification timing.",
+    ],
     liveLink: "https://toast-notifications-yusikerem.vercel.app/",
     repoLink: "https://github.com/keremyurttas/toastNotifications",
   },
@@ -165,7 +174,8 @@ const projects = [
       },
     ],
     details: [
-      "A large - scale, fully responsive, well designed website with Nuxt.",
+      "Presenting a large-scale, fully responsive website meticulously crafted with Nuxt.js.",
+      "Featuring seven intricately detailed pages, each tailored to provide an immersive and seamless user experience across all devices.",
     ],
     liveLink: "https://nft-market-place-dusky.vercel.app/",
     repoLink: "https://github.com/keremyurttas/NFT-Marketplace",
@@ -202,7 +212,11 @@ const projects = [
         imgSrc: "css.svg",
       },
     ],
-    details: ["Written in pure JavaScript and CSS with some smooth effects."],
+    details: [
+      "Built entirely with pure JavaScript and CSS",
+      "Experience seamless transitions and smooth effects throughout.",
+      "Fully responsive design ensures optimal viewing across all devices.",
+    ],
     liveLink: "https://school-genuine-snowy.vercel.app/",
     repoLink: "https://github.com/keremyurttas/AcademiaHub",
   },

@@ -6,18 +6,27 @@
       <div class="xl:space-y-16 space-y-8 text-center xl:text-left">
         <h1 class="text-secondary xl:text-7xl text-4xl">Hi, I'm Kerem</h1>
         <p class="text-fifthiary xl:max-w-lg w-full">
-          During my <b class="text-secondary">4 years</b> as
-          <b class="text-secondary">Front-End Software Engineer</b>, My role has
-          extended beyond coding to effective communication with various
-          departments, to define new features and spearheading the development
-          of new apps.
+          As a third-year
+          <b class="text-secondary">Software Engineering</b> student with a
+          focus on <b class="text-secondary">Front-End development</b>, I've
+          crafted numerous projects showcasing my expertise in
+          <b class="text-secondary"
+            >HTML, CSS, JavaScript, Vue.JS and React.JS.</b
+          >
+          Eager to contribute to impactful projects, I bring a blend of
+          creativity and precision to the ever-evolving landscape of web
+          development. Welcome to my portfolio, where possibilities are endless.
         </p>
         <div class="flex xl:flex-row flex-col items-center gap-4">
-          <button class="bg-secondary px-10 py-2.5 rounded-full font-bold">
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1KbG_9QSmWSihSJhjbrwrJiJVbumFbeYp/view?usp=sharing"
+            class="bg-secondary px-10 py-2.5 rounded-full font-bold"
+          >
             Download CV
-          </button>
-          <router-link to="/experiences" class="text-primary"
-            >See experiences</router-link
+          </a>
+          <router-link to="/projects" class="text-primary"
+            >See projects</router-link
           >
         </div>
       </div>
