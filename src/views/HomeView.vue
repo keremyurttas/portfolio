@@ -22,8 +22,8 @@
         </div>
       </div>
       <img
-        class="xl:w-1/4 w-1/6"
-        src="https://www.vigads.com.br/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fme.8603ec38.png&w=3840&q=75"
+        class="xl:w-1/4 w-1/6 aspect-square"
+        src="../assets/testy.png"
         alt=""
       />
     </section>
@@ -59,7 +59,7 @@
     </section>
     <section class="text-secondary space-y-20">
       <h2
-        class="xl:text-6xl text-3xl text-[#C8C8C8] text-center leading-normal"
+        class="xl:text-6xl text-3xl text-sixthiary text-center leading-normal"
       >
         The technologies I've <br />
         been using...

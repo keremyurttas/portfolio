@@ -19,6 +19,7 @@ module.exports = {
         tertary: "#0C0C0D",
         fourthiary: "#211F23",
         fifthiary: "#717171",
+        sixthiary: "#C8C8C8",
       },
     },
   },

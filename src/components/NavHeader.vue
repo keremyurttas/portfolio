@@ -39,7 +39,7 @@
 
 <script setup>
 import { useRoute } from "vue-router";
-const navItems = ["keremyurttas", "education", "experience"];
+const navItems = ["keremyurttas", "projects", "education"];
 
 const $route = useRoute();
 
