@@ -19,6 +19,8 @@
       <li class="hover:brightness-75 xl:block hidden">
         <a target="_blank" href="https://github.com/keremyurttas">
           <img
+            width="24"
+            height="24"
             class="cursor-pointer"
             src="../assets/icons/github.svg"
             alt="GitHub logo"
@@ -28,6 +30,8 @@
       <li class="hover:brightness-75 xl:block hidden">
         <a target="_blank" href="https://www.linkedin.com/in/keremyurttas/"
           ><img
+            width="24"
+            height="24"
             class="cursor-pointer"
             src="../assets/icons/linkedin.svg"
             alt="LinkedIn logo"

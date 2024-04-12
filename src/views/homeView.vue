@@ -31,9 +31,12 @@
         </div>
       </div>
       <img
-        class="xl:w-1/4 w-1/6 aspect-square"
-        src="../assets/keremyurttas.png"
-        alt=""
+        width="400"
+        height="400"
+        loading="lazy"
+        class="xl:w-1/4 md:w-1/6 w-1/2 aspect-square rounded-full"
+        src="../assets/keremyurttas.webp"
+        alt="keremyurttas image"
       />
     </section>
     <section class="flex gap-12 items-center flex-col xl:flex-row">
