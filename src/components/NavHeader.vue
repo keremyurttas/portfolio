@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="text-secondary w-max fixed bottom-20 z-10 xl:top-20 h-max left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-90"
+    class="text-secondary w-max fixed bottom-6 z-10 xl:top-20 h-max left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-90"
   >
     <ul class="flex gap-8 items-center px-8 py-6 bg-fourthiary rounded-full">
       <li

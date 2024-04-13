@@ -20,14 +20,14 @@ const educations = [
     },
   },
   {
-    name: "Nişantaşı Üniversitesi",
+    name: "Nişantaşı University",
     detail: "Bachelors in Software Engineering",
     date: "Jan 2021 - Current",
     extraInfo: "GPA: 3.41",
   },
 
   {
-    name: "Nişantaşı Üniversitesi",
+    name: "Nişantaşı University",
     detail: "English Preperation Class",
     date: "Jan 2020 - 2021",
     extraInfo: "C1 Level",
