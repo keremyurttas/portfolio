@@ -29,6 +29,38 @@
 import ProjectTemplate from "../components/ProjectTemplate.vue";
 const projects = [
   {
+    name: "Revflix",
+    imgSource: "revflix.png",
+    usedTechnologies: [
+      {
+        name: "Next.JS",
+        imgSrc: "next.svg",
+      },
+
+      {
+        name: "Node.JS",
+        imgSrc: "tailwind.svg",
+      },
+      {
+        name: "MongoDB",
+        imgSrc: "mongodb.svg",
+      },
+      {
+        name: "MUI",
+        imgSrc: "mui.svg",
+      },
+    ],
+
+    details: [
+      "Revflix is a responsive film rating and review app designed for an optimal user experience across all devices.",
+      "It is developed using Node.js and Next.js, ensuring robust performance and seamless navigation.",
+      "The app includes comprehensive user login and sign-up features, providing a secure and personalized experience.",
+      "NOTE: Upon entering the website, you may need to wait a few minutes for the backend server to reboot.",
+    ],
+    liveLink: "https://wordle-react-sage.vercel.app/",
+    repoLink: "https://github.com/keremyurttas/wordleReact",
+  },
+  {
     name: "Wordle",
     imgSource: "wordle.png",
     usedTechnologies: [
@@ -51,6 +83,7 @@ const projects = [
     liveLink: "https://wordle-react-sage.vercel.app/",
     repoLink: "https://github.com/keremyurttas/wordleReact",
   },
+
   {
     name: "Survey App",
     imgSource: "surveyApp.png",
