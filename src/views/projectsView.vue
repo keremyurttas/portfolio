@@ -57,8 +57,8 @@ const projects = [
       "The app includes comprehensive user login and sign-up features, providing a secure and personalized experience.",
       "NOTE: Upon entering the website, you may need to wait a few minutes for the backend server to reboot.",
     ],
-    liveLink: "https://wordle-react-sage.vercel.app/",
-    repoLink: "https://github.com/keremyurttas/wordleReact",
+    liveLink: "https://revflix.vercel.app/",
+    repoLink: "https://github.com/keremyurttas/revflix",
   },
   {
     name: "Wordle",
