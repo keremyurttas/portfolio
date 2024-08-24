@@ -6,7 +6,7 @@
       <div class="xl:space-y-16 space-y-8 text-center xl:text-left">
         <h1 class="text-secondary xl:text-7xl text-4xl">Hi, I'm Kerem</h1>
         <p class="text-fifthiary xl:max-w-xl w-full">
-          As a third-year
+          As a fourth-year
           <b class="text-secondary">Software Engineering</b> student with a
           focus on <b class="text-secondary">Front-End development</b>, I've
           crafted numerous projects showcasing my expertise in
