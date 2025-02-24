@@ -62,8 +62,8 @@ const projects = [
       "Features include an AI-powered automation box integrated with OpenAI, the ability to manage Google Drive files, and capabilities to managing a database in Notion and utilize Slack's messaging features to enhance workflow customization.",
       "Tailwind CSS and ShadCN are utilized to create a modern, responsive, and visually appealing user interface.",
     ],
-    liveLink: "https://nu-verge.onrender.com/",
-    repoLink: "https://github.com/steadytaha/nu-verge",
+    liveLink: "https://documentation-app-psi.vercel.app/",
+    repoLink: "https://github.com/keremyurttas/documentationApp",
   },
   {
     name: "Dogan Led Documentation App",
