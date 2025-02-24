@@ -29,6 +29,71 @@
 import ProjectTemplate from "../components/ProjectTemplate.vue";
 const projects = [
   {
+    name: "NuVerge Automation Builder",
+    imgSource: "nuverge.png",
+    usedTechnologies: [
+      {
+        name: "Next.JS",
+        imgSrc: "next.svg",
+      },
+
+      {
+        name: "NEON",
+        imgSrc: "neon.svg",
+      },
+      {
+        name: "Prisma",
+        imgSrc: "prisma.svg",
+      },
+      {
+        name: "Clerk",
+        imgSrc: "clerk.svg",
+      },
+      {
+        name: "Shadcn",
+        imgSrc: "shadcn.svg",
+      },
+    ],
+
+    details: [
+      "Nuverge is an advanced automation builder that enables users to create and manage workflows utilizing AI-driven logic.",
+      "The application is developed using Next.js and Prisma, with Neon.tech as the database provider and Clerk for authentication to ensure optimal performance.",
+      "Zustand is employed for state management, facilitating smooth user interactions.",
+      "Features include an AI-powered automation box integrated with OpenAI, the ability to manage Google Drive files, and capabilities to managing a database in Notion and utilize Slack's messaging features to enhance workflow customization.",
+      "Tailwind CSS and ShadCN are utilized to create a modern, responsive, and visually appealing user interface.",
+    ],
+    liveLink: "https://nu-verge.onrender.com/",
+    repoLink: "https://github.com/steadytaha/nu-verge",
+  },
+  {
+    name: "Dogan Led Documentation App",
+    imgSource: "doganled.png",
+    usedTechnologies: [
+      {
+        name: "Vue.JS",
+        imgSrc: "vue.svg",
+      },
+
+      {
+        name: "Google Drive API",
+        imgSrc: "googleDrive.svg",
+      },
+      {
+        name: "Vuetify",
+        imgSrc: "vuetify.svg",
+      },
+    ],
+
+    details: [
+      "The Dogan LED documentation app is a freelance project designed to provide users with a comprehensive and intuitive interface for managing documentation.",
+      "The application features a modern and fully responsive user interface, ensuring an optimal experience across various devices.",
+      "It is fully integrated with Google Drive API, allowing users to navigate seamlessly within the app while utilizing the admin's established folder structure.",
+      "The project exemplifies effective use of contemporary web development practices to deliver a user-friendly and efficient solution.",
+    ],
+    liveLink: "https://nu-verge.onrender.com/",
+    repoLink: "https://github.com/steadytaha/nu-verge",
+  },
+  {
     name: "Revflix",
     imgSource: "revflix.png",
     usedTechnologies: [
