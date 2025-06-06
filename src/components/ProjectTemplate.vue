@@ -45,9 +45,13 @@
           />View Live
         </a>
         <a
+          :href="repoLink || '#'"
           target="_blank"
-          :href="repoLink"
-          class="xl:px-6 xl:py-2 px-2 py-1 bg-secondary flex gap-2 items-center text-bold xl:text-xl rounded-xl w-full xl:w-max justify-center text-tertary hover:opacity-80"
+          @click.prevent="!repoLink ? null : undefined"
+          :class="[
+            'xl:px-6 xl:py-2 px-2 py-1 bg-secondary flex gap-2 items-center text-bold xl:text-xl rounded-xl w-full xl:w-max justify-center text-tertary',
+            repoLink ? 'hover:opacity-80' : 'opacity-50 cursor-not-allowed',
+          ]"
         >
           <img
             class="w-10 h-10"

@@ -3,9 +3,7 @@
     <section class="flex items-center flex-col gap-4">
       <h4 class="text-3xl leading-loose text-center font-light text-sixthiary">
         &lt; Get to know me better and explore my journey as a <br />
-        <strong class="text-secondary font-bold">
-          Front-End Software Engineer
-        </strong>
+        <strong class="text-secondary font-bold"> Software Engineer </strong>
         /&gt;
       </h4>
       <a
@@ -28,6 +26,33 @@
 <script setup>
 import ProjectTemplate from "../components/ProjectTemplate.vue";
 const projects = [
+  {
+    name: "Altıneller Spor Kulübü",
+    imgSource: "altineller.png",
+    usedTechnologies: [
+      {
+        name: "Next.JS",
+        imgSrc: "next.svg",
+      },
+      {
+        name: "Tailwind",
+        imgSrc: "tailwind.svg",
+      },
+      {
+        name: "Notion API",
+        imgSrc: "notion.svg",
+      },
+    ],
+
+    details: [
+      "This freelance project is a dynamic and SEO-optimized website built with a mobile-first, responsive design approach to ensure a seamless experience across all devices.",
+      "It integrates the Notion API, allowing content to be updated directly from Notion, making the site highly maintainable and user-friendly for non-technical users.",
+      "The project emphasizes clean UI/UX with a robust layout, ensuring both aesthetic appeal and functional performance.",
+      "Its architecture supports easy content management while providing a strong foundation for discoverability through built-in SEO strategies.",
+    ],
+    liveLink: "https://altinellersk.com",
+    repoLink: null,
+  },
   {
     name: "NuVerge Automation Builder",
     imgSource: "nuverge.png",
@@ -90,8 +115,8 @@ const projects = [
       "It is fully integrated with Google Drive API, allowing users to navigate seamlessly within the app while utilizing the admin's established folder structure.",
       "The project exemplifies effective use of contemporary web development practices to deliver a user-friendly and efficient solution.",
     ],
-    liveLink: "https://nu-verge.onrender.com/",
-    repoLink: "https://github.com/steadytaha/nu-verge",
+    liveLink: "https://documentation-app-psi.vercel.app/",
+    repoLink: null,
   },
   {
     name: "Revflix",
@@ -104,7 +129,7 @@ const projects = [
 
       {
         name: "Node.JS",
-        imgSrc: "tailwind.svg",
+        imgSrc: "nodejs.svg",
       },
       {
         name: "MongoDB",
