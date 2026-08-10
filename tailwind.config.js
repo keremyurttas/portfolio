@@ -4,12 +4,16 @@ module.exports = {
     "bg-[#C2C2C2]",
     "bg-[#C3C99E]",
     "bg-[#7D9CA5]",
-    "bg-[#42936C]",
-    "bg-[#428593]",
+    "bg-[#C2EBFF]",
+    "bg-[#2B2228]",
     "bg-[#C0E5D7]",
+    "bg-[#8A97F2]",
+    "bg-[#667355]",
+    "bg-[#3D4247]",
+    "bg-[#42936C]"
+    
   ],
-  purge: [],
-  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {

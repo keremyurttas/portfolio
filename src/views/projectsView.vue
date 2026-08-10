@@ -6,26 +6,75 @@
         <strong class="text-secondary font-bold"> Software Engineer </strong>
         /&gt;
       </h4>
-      <a
-        target="_blank"
-        href="https://drive.google.com/file/d/1KbG_9QSmWSihSJhjbrwrJiJVbumFbeYp/view?usp=sharing"
-        class="bg-secondary px-10 py-4 text-tertary font-bold rounded-full hover:opacity-70"
-      >
+      <a target="_blank" href="https://drive.google.com/file/d/1KbG_9QSmWSihSJhjbrwrJiJVbumFbeYp/view?usp=sharing"
+        class="bg-secondary px-10 py-4 text-tertary font-bold rounded-full hover:opacity-70">
         Download CV
       </a>
     </section>
     <section class="space-y-10">
-      <ProjectTemplate
-        v-for="(project, index) in projects"
-        :key="index"
-        v-bind="project"
-      ></ProjectTemplate>
+      <ProjectTemplate v-for="(project, index) in projects" :key="index" v-bind="project"></ProjectTemplate>
     </section>
   </div>
 </template>
 <script setup>
 import ProjectTemplate from "../components/ProjectTemplate.vue";
 const projects = [
+  {
+    name: "Deristok Marketplace",
+    imgSource: "deristok.png",
+    usedTechnologies: [
+      {
+        name: "Next.JS",
+        imgSrc: "next.svg",
+      },
+      {
+        name: "Tailwind",
+        imgSrc: "tailwind.svg",
+      },
+      {
+        name: "Supabase",
+        imgSrc: "supabase.svg",
+      },
+    ],
+    details: [
+      "This B2B/B2C e-commerce marketplace was rebuilt from scratch in just three months, transitioning from a monolithic OpenCart setup to a modern, scalable architecture using Next.js, Tailwind, Supabase, and Hono.",
+      "The platform is engineered to support multi-language (i18n) and multi-currency functionality, featuring complex marketplace modules like industry-specific dynamic pricing and a tender/bidding infrastructure.",
+      "It includes a custom-designed CRM module with a sophisticated membership structure tailored for both B2B corporate dynamics and individual sellers, alongside review-summarization and area-calculation algorithms.",
+      "The complete end-to-end multi-vendor integration handles seamless pre-authorization payment flows, collective purchasing, sample-request processes, and complex shipping APIs."
+    ],
+    liveLink: "https://deristok.com",
+    repoLink: null,
+  },
+  {
+    name: "E-rehabilitasyon",
+    imgSource: "e-rehab.png",
+    usedTechnologies: [
+      {
+        name: "Next.JS",
+        imgSrc: "next.svg",
+      },
+      {
+        name: "Tailwind",
+        imgSrc: "tailwind.svg",
+      },
+      {
+        name: "Nest",
+        imgSrc: "nestjs.svg",
+      },
+      {
+        name: "PostgreSQL",
+        imgSrc: "postgre.svg",
+      },
+    ],
+    details: [
+      "This education and health technology platform was developed from scratch in just three months, featuring a custom live video-lesson infrastructure powered by Next.js, Tailwind, Nest.js, and PostgreSQL.",
+      "Engineered with a robust marketplace logic, the platform allows independent teachers and educational organizations to self-register, onboard, and offer their services directly to students and parents.",
+      "The architecture includes secure, isolated management dashboards tailored for four distinct user types (Institution, Teacher, Student, and Parent), seamlessly integrated with the PayTR payment gateway to handle marketplace transactions.",
+      "The system is further enhanced by an AI-powered progress assessment module, a smart expert-matching engine, and a KVKK-compliant interactive map built using Leaflet."
+    ],
+    liveLink: "https://e-rehabilitasyon.com",
+    repoLink: null,
+  },
   {
     name: "Altıneller Spor Kulübü",
     imgSource: "altineller.png",
@@ -87,7 +136,7 @@ const projects = [
       "Features include an AI-powered automation box integrated with OpenAI, the ability to manage Google Drive files, and capabilities to managing a database in Notion and utilize Slack's messaging features to enhance workflow customization.",
       "Tailwind CSS and ShadCN are utilized to create a modern, responsive, and visually appealing user interface.",
     ],
-    liveLink: "https://documentation-app-psi.vercel.app/",
+    liveLink: "https://nu-verge.onrender.com/",
     repoLink: "https://github.com/keremyurttas/documentationApp",
   },
   {
